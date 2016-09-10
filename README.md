@@ -1,5 +1,11 @@
-The whole tree is expecting omnirom 6.0 sources and is a mix of TeamWin (base tree) + jcadduono (extended tree) + steadfasterX (even more extended - omnirom 6.0 compatible, optimized kernel, and fully working decryption).
-Prepare the sources from here: https://github.com/omnirom/android/tree/android-6.0
+This TWRP builds and works fine, except decryption of userdata partition.
+
+Thx to steadfasterX and celoxocis for advices.
+
+Some notes for myself:
+----------------------
+
+How to add local manifest with CM13 device/qcom/common sources?
 
 Add to `.repo/local_manifests/idol4_6055k.xml`:
 
@@ -15,7 +21,6 @@ Then run `repo sync` to check it out.
 
 
 ---
-Thx 2 celoxocis:
 
 its easy just go into your android/system folder. there is a folder named ".repo" go into there and in its subfolder "local_manifest".
 create a file called "manifest.xml" and include the following:
