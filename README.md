@@ -1,5 +1,8 @@
 This TWRP builds and works fine, except decryption of userdata partition.
 
+Initially probles with decryption was described here: http://forum.xda-developers.com/showpost.php?p=68618351&postcount=2257
+And here all needed logs (included dmesg, logcat, and recovery logs): http://forum.xda-developers.com/showpost.php?p=68621748&postcount=2262
+
 Thx to steadfasterX and celoxocis for advices.
 
 Some notes for myself:
@@ -37,3 +40,11 @@ Code:
 
 Note: you can remove the past two lines if you want to stick with TWRP on android-6.0 tree.
 Go back into your "android/system" folder. do a "repo sync --force-sync -f"
+
+---
+
+How to push github commit?
+
+git add .
+git commit -m "comment"
+git push -u origin master
