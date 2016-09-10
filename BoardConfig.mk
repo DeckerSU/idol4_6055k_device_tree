@@ -78,8 +78,8 @@ BOARD_HAS_NO_REAL_SDCARD := true
 # https://android.googlesource.com/platform/external/sepolicy/+/marshmallow-release/README
 # BOARD_SEPOLICY_DIRS += device/alcatel/idol4_6055k/sepolicy
 
+TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
-# TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 # Enable vendor image symlink
 # BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
 # TARGET_COPY_OUT_VENDOR := system/vendor
