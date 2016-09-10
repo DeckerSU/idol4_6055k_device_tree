@@ -59,3 +59,4 @@ Useful topics
 - http://stackoverflow.com/questions/33779286/selinux-policy-definition-for-android-system-service-how-to-setup
 - https://github.com/TeamWin/Team-Win-Recovery-Project/issues/477
 - https://github.com/TeamWin/android_device_oneplus_oneplus2/issues/1 (qseecomd start problem)
+- http://forum.xda-developers.com/showthread.php?t=2794413 (Blob utility)
