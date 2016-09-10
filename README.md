@@ -60,3 +60,4 @@ Useful topics
 - https://github.com/TeamWin/Team-Win-Recovery-Project/issues/477
 - https://github.com/TeamWin/android_device_oneplus_oneplus2/issues/1 (qseecomd start problem)
 - http://forum.xda-developers.com/showthread.php?t=2794413 (Blob utility)
+- https://github.com/omnirom/android_device_huawei_angler/blob/android-6.0/recovery/root/init.recovery.angler.rc (interesting solution to make qseecomd work in recovery)
