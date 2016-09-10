@@ -1,3 +1,13 @@
+History of changes
+------------------
+
+- 11.09.2016
+
+Fix userdata decryption. Now all works fine. Problem was in qseecomd wouldn't start, now it fixed. Now i have another question, how to mount
+adopted (adoptable) storage in TWRP. Any ideas? ;)
+
+- 10.09.2016
+
 This TWRP builds and works fine, except decryption of userdata partition.
 
 Initially probles with decryption was described here: http://forum.xda-developers.com/showpost.php?p=68618351&postcount=2257
