@@ -58,3 +58,4 @@ Useful topics
 - http://forum.xda-developers.com/showpost.php?p=68249027&postcount=3
 - http://stackoverflow.com/questions/33779286/selinux-policy-definition-for-android-system-service-how-to-setup
 - https://github.com/TeamWin/Team-Win-Recovery-Project/issues/477
+- https://github.com/TeamWin/android_device_oneplus_oneplus2/issues/1 (qseecomd start problem)
