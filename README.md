@@ -51,4 +51,10 @@ git push -u origin master
 
 --- 
 
-Test
+Useful topics
+-------------
+
+- http://forum.xda-developers.com/showthread.php?p=68621748
+- http://forum.xda-developers.com/showpost.php?p=68249027&postcount=3
+- http://stackoverflow.com/questions/33779286/selinux-policy-definition-for-android-system-service-how-to-setup
+- https://github.com/TeamWin/Team-Win-Recovery-Project/issues/477
