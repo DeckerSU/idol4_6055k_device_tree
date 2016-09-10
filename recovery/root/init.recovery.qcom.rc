@@ -37,9 +37,6 @@ on early-init
 on fs
     # encryption support
     service qseecomd /sbin/qseecomd
-    class core
-    user root
-    group root
     seclabel u:object_r:tee_exec:s0
 
 on boot
