@@ -1,6 +1,10 @@
 History of changes
 ------------------
 
+- 11.09.2016 (deep night)
+
+Fix adopted storage mount. Now all mounts correctly.
+
 - 11.09.2016
 
 Fix userdata decryption. Now all works fine. Problem was in qseecomd wouldn't start, now it fixed. Now i have another question, how to mount
