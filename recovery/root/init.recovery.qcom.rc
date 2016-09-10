@@ -30,13 +30,17 @@
 # Link /vendor to /system/vendor for devices without a vendor partition.
 # symlink /system/vendor /vendor
 
+# encryption support
+service qseecomd /sbin/qseecomd
+    oneshot
+    disabled
+    user root
+    group root
+    seclabel u:r:recovery:s0
+
 on early-init
     # Start QCE driver, needed to support MDTP in recovery
     insmod /sbin/qcrypto_module.ko
 
-on fs
-    # encryption support
-    service qseecomd /sbin/qseecomd
-    user root
-    group root
-    seclabel u:r:recovery:s0
+on property:ro.crypto.state=encrypted
+    start qseecomd
