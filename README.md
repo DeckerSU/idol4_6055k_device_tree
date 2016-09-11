@@ -2,11 +2,10 @@ History of changes
 ------------------
 
 - 11.09.2016
-
--- Added correct time in TWRP recovery. 
--- Demo video: https://www.youtube.com/watch?v=TOIpFEiQ65w
--- Fix adopted storage mount. Now all mounts correctly.
--- Fix userdata decryption. Now all works fine. Problem was in qseecomd wouldn't start, now it fixed. 
+  - Added correct time in TWRP recovery. 
+  - Demo video: https://www.youtube.com/watch?v=TOIpFEiQ65w
+  - Fix adopted storage mount. Now all mounts correctly.
+  - Fix userdata decryption. Now all works fine. Problem was in qseecomd wouldn't start, now it fixed. 
 
 - 10.09.2016
 
