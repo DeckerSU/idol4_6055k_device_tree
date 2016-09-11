@@ -1,14 +1,12 @@
 History of changes
 ------------------
 
-- 11.09.2016 (deep night)
-
-Fix adopted storage mount. Now all mounts correctly.
-
 - 11.09.2016
 
-Fix userdata decryption. Now all works fine. Problem was in qseecomd wouldn't start, now it fixed. Now i have another question, how to mount
-adopted (adoptable) storage in TWRP. Any ideas? ;)
+-- Added correct time in TWRP recovery. 
+-- Demo video: https://www.youtube.com/watch?v=TOIpFEiQ65w
+-- Fix adopted storage mount. Now all mounts correctly.
+-- Fix userdata decryption. Now all works fine. Problem was in qseecomd wouldn't start, now it fixed. 
 
 - 10.09.2016
 
