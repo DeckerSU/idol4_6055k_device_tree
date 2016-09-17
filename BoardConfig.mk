@@ -58,8 +58,8 @@ TW_THEME := portrait_hdpi
 TW_EXCLUDE_SUPERSU := true
 
 # DEBUG (BOTH needed to enable logcat)
-TARGET_USES_LOGD := true
-TWRP_INCLUDE_LOGCAT := true
+# TARGET_USES_LOGD := true
+# TWRP_INCLUDE_LOGCAT := true
 
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
